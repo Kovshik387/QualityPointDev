@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2E80E978-6CC8-42D8-A625-DBA991D1C2A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A7AA9576-4C50-487A-B696-DE084541A049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityPointDev.WebApi", "QualityPointDev.WebApi\QualityPointDev.WebApi.csproj", "{40606F04-1BB0-46ED-B496-D500BEC84B6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B02C05DA-2714-4B0A-B5CF-1D00FB88743A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityPointDev.Settings", "QualityPointDev.Settings\QualityPointDev.Settings.csproj", "{A2DBE395-3FF9-4CC8-B013-B5A3CE951233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityPointDev.Services.Settings", "QualityPointDev.Services.Settings\QualityPointDev.Services.Settings.csproj", "{ACB78831-527D-4260-AAAD-BC57271E99FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityPointDev.Services.Address", "QualityPointDev.Services.Address\QualityPointDev.Services.Address.csproj", "{91887349-741F-41B4-9C8F-BE8424CD302E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityPointDev.Helpers", "QualityPointDev.Helpers\QualityPointDev.Helpers.csproj", "{FD342F32-73D1-4913-B9E4-BF6D1D2D0C6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40606F04-1BB0-46ED-B496-D500BEC84B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40606F04-1BB0-46ED-B496-D500BEC84B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40606F04-1BB0-46ED-B496-D500BEC84B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40606F04-1BB0-46ED-B496-D500BEC84B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DBE395-3FF9-4CC8-B013-B5A3CE951233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DBE395-3FF9-4CC8-B013-B5A3CE951233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DBE395-3FF9-4CC8-B013-B5A3CE951233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DBE395-3FF9-4CC8-B013-B5A3CE951233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB78831-527D-4260-AAAD-BC57271E99FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB78831-527D-4260-AAAD-BC57271E99FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB78831-527D-4260-AAAD-BC57271E99FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB78831-527D-4260-AAAD-BC57271E99FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91887349-741F-41B4-9C8F-BE8424CD302E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91887349-741F-41B4-9C8F-BE8424CD302E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91887349-741F-41B4-9C8F-BE8424CD302E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91887349-741F-41B4-9C8F-BE8424CD302E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD342F32-73D1-4913-B9E4-BF6D1D2D0C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD342F32-73D1-4913-B9E4-BF6D1D2D0C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD342F32-73D1-4913-B9E4-BF6D1D2D0C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD342F32-73D1-4913-B9E4-BF6D1D2D0C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40606F04-1BB0-46ED-B496-D500BEC84B6F} = {A7AA9576-4C50-487A-B696-DE084541A049}
+		{A2DBE395-3FF9-4CC8-B013-B5A3CE951233} = {B02C05DA-2714-4B0A-B5CF-1D00FB88743A}
+		{ACB78831-527D-4260-AAAD-BC57271E99FF} = {2E80E978-6CC8-42D8-A625-DBA991D1C2A2}
+		{91887349-741F-41B4-9C8F-BE8424CD302E} = {2E80E978-6CC8-42D8-A625-DBA991D1C2A2}
+		{FD342F32-73D1-4913-B9E4-BF6D1D2D0C6C} = {B02C05DA-2714-4B0A-B5CF-1D00FB88743A}
+	EndGlobalSection
+EndGlobal
